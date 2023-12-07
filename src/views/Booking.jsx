@@ -49,6 +49,7 @@ function Booking() {
     }
 
     function removeShoe(name) {
+        console.log('Removing shoe with ID:', name);
         setError(false);
 
         setShoes(shoes.filter(shoe =>

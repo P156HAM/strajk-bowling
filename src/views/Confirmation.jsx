@@ -14,16 +14,16 @@ function Confirmation() {
             <Top title="See you soon!" />
             { state ?
                 <form className='confirmation__details'> 
-                    <Input label="When" type="text" customClass="confirmation__input"
+                    <Input id="when" label="When" type="text" customClass="confirmation__input"
                     defaultValue={ state.confirmationDetails.when.replace('T', ' ') }
                     disabled="disabled" />
-                    <Input label="Who" type="text"  customClass="confirmation__input"
+                    <Input id="who" label="Who" type="text"  customClass="confirmation__input"
                     defaultValue={ state.confirmationDetails.people }
                     disabled="disabled" />
-                    <Input label="Lanes" type="text" customClass="confirmation__input"
+                    <Input id="lanes" label="Lanes" type="text" customClass="confirmation__input"
                     defaultValue={ state.confirmationDetails.lanes }
                     disabled="disabled" />
-                    <Input label="Booking number" type="text" customClass="confirmation__input"
+                    <Input id="Booking number" label="Booking number" type="text" customClass="confirmation__input"
                     defaultValue={ state.confirmationDetails.id }
                     disabled="disabled" />
                     <article className='confirmation__price'>

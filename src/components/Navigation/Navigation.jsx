@@ -9,11 +9,11 @@ function Navigation() {
 
     return (
         <nav className={ `navigation ${ showMenu ? 'show-menu' : '' }` }>
-            <img src={ navicon } className='navigation__icon'
+            <img src={ navicon } className='navigation__icon' alt="Navigation Icon"
             onClick={ () => { setShowMenu(!showMenu) }} />
-            <a href="#" className={ `navigation__link ${ showMenu ? '' : 'hide' }` } 
+            <a href="#"  className={ `navigation__link ${ showMenu ? '' : 'hide' }` } 
             onClick={ () => { navigate('/') }}>Booking</a>
-            <a href="#" className={ `navigation__link ${ showMenu ? '' : 'hide' }` } 
+            <a href="#"  className={ `navigation__link ${ showMenu ? '' : 'hide' }` } 
             onClick={ () => { navigate('/confirmation') }}>Confirmation</a>
         </nav>
     )
