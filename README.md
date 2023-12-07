@@ -2,49 +2,29 @@
 
 ## Acceptanskriterier
 
-### User Story 1: Boka Datum och Tid
+### User Story 1: Som användare vill jag kunna boka datum och tid samt ange antal spelare så att jag kan reservera 1 eller flera baner i bowlinghallen.
 
-**Positivt Scenario:**
 - Som användare vill jag kunna välja datum och tid för min bowlingbokning.
 - Systemet bör tillåta mig att välja antalet spelare för bokningen (1 eller fler).
 - Efter valet bör systemet visa det valda datumet, tiden och antalet spelare.
-
-**Negativt Scenario:**
 - Om inget datum eller tid väljs bör systemet visa ett felmeddelande.
-- Systemet bör inte tillåta en bokning utan spelare.
 
-### User Story 2: Välj Skostorlek
+### User Story 2: Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 
-**Positivt Scenario:**
 - Som användare vill jag kunna välja skostorlek för varje spelare i min bokning.
 - Systemet bör visa den valda skostorleken för varje spelare.
 
-**Negativt Scenario:**
-- Om ingen skostorlek väljs för en spelare bör systemet visa en standardstorlek.
+### User Story 3: Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
 
-### User Story 3: Ta Bort Skostorleksfält
-
-**Positivt Scenario:**
 - Som användare vill jag kunna ta bort ett skostorleksfält om jag råkar välja ett för många.
 - Systemet bör uppdatera visningen för att återspegla det korrekta antalet skostorlekar.
 
-**Negativt Scenario:**
-- Systemet bör inte tillåta att ta bort alla skostorleksfält för att säkerställa att minst en spelare har valt en storlek.
+### User Story 4: Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
 
-### User Story 4: Skicka Bokning och Få Bokningsinformation
-
-**Positivt Scenario:**
 - Som användare vill jag kunna skicka min bokning och få en bokningsnummer.
 - Systemet bör beräkna och visa det totala beloppet att betala (120 kr/person + 100 kr/bana).
 
-**Negativt Scenario:**
-- Om bokningen inte kan behandlas bör systemet visa ett felmeddelande.
+### User Story 5: Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
 
-### User Story 5: Navigera Mellan Boknings- och Bekräftelsevyn
-
-**Positivt Scenario:**
 - Som användare vill jag kunna smidigt navigera mellan boknings- och bekräftelsevyerna.
 - Systemet bör uppdatera gränssnittet för att återspegla den aktuella vyn.
-
-**Negativt Scenario:**
-- Om det uppstår problem med att navigera mellan vyerna bör systemet visa ett felmeddelande.
